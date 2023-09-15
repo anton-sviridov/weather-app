@@ -1,0 +1,74 @@
+.weather {
+    /* margin-top: 100px; */
+    margin-top: calc(50px + 3vw);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.weather__icon {
+    max-width: 90%;
+    width: 200px;
+    height: auto;
+}
+
+.temperature {
+    margin-top: 40px;
+}
+
+.city {
+    margin-top: 15px;
+}
+
+.temperature h1 {
+    font-size: 48px;
+}
+
+.city h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.temperature h1, .city h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.details {
+    margin-top: calc(7vh);
+    /* margin-top: 70px; */
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.detail {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.detail img {
+    width:  50px;
+    height: 50px;
+}
+
+.descriptions .description {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 420px) {
+    
+}

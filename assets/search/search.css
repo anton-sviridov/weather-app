@@ -1,0 +1,32 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.search input {
+    max-width: 70%;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #E6F2FF;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.search button {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #E6F2FF;
+}
+
+.search button img {
+    height: auto;
+    width: 20px;
+}
